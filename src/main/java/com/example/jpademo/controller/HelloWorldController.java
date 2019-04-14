@@ -18,12 +18,12 @@ public class HelloWorldController {
     }
 
     @PostMapping
-    public TestDO post (@RequestParam() TestDO testDO){
+    public TestDO post (@RequestBody() TestDO testDO){
         return testDao.save(testDO);
     }
 
     @PutMapping
-    public TestDO put (@RequestParam() TestDO testDO){
+    public TestDO put (@RequestBody() TestDO testDO){
         return testDao.save(testDO);
     }
 
