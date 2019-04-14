@@ -5,6 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 
 @Data
+@Builder
 @Entity
 @Table(name = "jap_test")
 public class TestDO {
